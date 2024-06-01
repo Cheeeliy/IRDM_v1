@@ -6,4 +6,4 @@ You can train the model
 
 python main.py --device cuda:0 --dataset [dataset]
 
-The dataset you can choose from [PSM, SMD, MSL, SWaT, SMAP].
+The datasets supporting the results of this article are SMD, SWaT, MSL, PSM, and SMAP public datasets, and these are indicated in the manuscript with its website. And they should be chosen and preprocessed by min-max normalization before training.
